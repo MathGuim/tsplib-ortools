@@ -5,10 +5,10 @@ Comparision between different MIP formulations present on Roberti and Toth (2015
 
 + Instalar Anaconda: https://docs.anaconda.com/anaconda/install/
 
-+ Instalar enviroment, no terminal, dentro da pasta do trabalho:
++ Instalar enviroment, no terminal, dentro da pasta do trabalho (use o comando cd para mudar o diretório):
 
 ```
-conda env export > environment.yml
+conda env create -f environment.yml
 ```
 
 + Iniciar Jupyter Notebook, no terminal, dentro da pasta do trabalho:
